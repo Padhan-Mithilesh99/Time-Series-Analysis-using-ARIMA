@@ -1,0 +1,11 @@
+geemap
+numpy
+pandas
+matplotlib
+seaborn
+rasterio
+geopandas
+statsmodels
+scikit-learn
+
+
