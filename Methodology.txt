@@ -1,0 +1,21 @@
+Data Collection: Downloaded Landsat scenes (cloud-free) from 2015 to 2025.
+
+Preprocessing:
+
+Clipping using shapefile
+
+Masking clouds (optional)
+
+Extracting NIR and Red bands
+
+NDVI Calculation: Pixel-wise using the NDVI formula
+
+Time Series Generation: Monthly/seasonal NDVI mean values
+
+Stationarity Check: ADF Test, differencing
+
+Modeling: ARIMA (AutoRegressive Integrated Moving Average)
+
+Forecasting: Predicting NDVI trends into the near future
+
+
